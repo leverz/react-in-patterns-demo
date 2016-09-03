@@ -27,7 +27,7 @@ const Placeholder = (props) => {
 const React = require('react');
 const Component = React.Component;
 const HigherOrderInput = (InputComponent) => {
-	const blurEventHanler;
+	let blurEventHanler;
 	return class HigherOrderInput extends Component {
 			focus() {
 				this.setState({
