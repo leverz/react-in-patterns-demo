@@ -34,7 +34,7 @@ const HigherOrderInput = (InputComponent) => {
 					inputFoucs: true
 				});
 			}
-			conmpontentDidMount(){
+			componentDidMount(){
 				blurEventHanler = () => {
 					this.setState({
 						inputFoucs: false
